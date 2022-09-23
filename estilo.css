@@ -140,8 +140,37 @@ display: flex;
         display: flex;
         align-items: center;
         flex-direction:column;
+        justify-content: center;
         transition: 0.3s ease-in;
         background-color: rgb(227, 227, 227);
     }
+nav ul li{
+
+    padding: 10px;
+}
+nav ul li a{
+    font-size: 10px;
+    color:white;
+}
+nav ul button{
+    background-color: black;
+
+}
+main{
+    flex-direction: column;
+
+}
+.text-bx,
+.img-bx{
+    width: 100%;
+    text-align: center;
+}
+.twext-bx{
+    margin-bottom: 40px;
+}
+.text-bx .input-bx{
+    justify-content: center;
+}
+
 
 }
