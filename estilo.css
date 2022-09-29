@@ -50,6 +50,17 @@ nav ul li a{
     color: #1f1d76
 
 }
+nav ul button{
+    border: none;
+    background-color: #1f1d76;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    cursor: pointer;
+}
 main{
     margin-top: 20px;
     display: flex;
@@ -136,7 +147,8 @@ display: flex;
         width: 60%;
         height: 100%;
         top: 0%;
-        transform: translate(-100%);
+        left: 0%;
+        transform: translateX(-100%);
         display: flex;
         align-items: center;
         flex-direction:column;
@@ -144,28 +156,34 @@ display: flex;
         transition: 0.3s ease-in;
         background-color: rgb(227, 227, 227);
     }
+   nav ul.active{
+    transform: translateX(0);
+    }
+
 nav ul li{
 
     padding: 10px;
 }
+
 nav ul li a{
     font-size: 10px;
     color:white;
 }
 nav ul button{
-    background-color: black;
+    background-color: #000000;
+    }
 
-}
 main{
     flex-direction: column;
 
 }
+
 .text-bx,
 .img-bx{
     width: 100%;
     text-align: center;
 }
-.twext-bx{
+.text-bx{
     margin-bottom: 40px;
 }
 .text-bx .input-bx{
