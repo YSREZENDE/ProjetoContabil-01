@@ -231,29 +231,8 @@ footer{
 
 }
 
-.sociais{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
 
-}
-.sociais li{
-    margin: 0 10px;
-}
-.sociais a{
-    text-decoration: none;
-    color: white;
 
-}
-.sociais a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
-}
-.sociais a:hover i{
-    color: aquamarine;
-}
 .footer-bottom{
     background: #0d0c58;
     width: 90vw;
@@ -271,5 +250,21 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+#boxes .box{
+    margin-top: 20px;
 
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box i{
+    width: px;
+
+}
+#boxes .box p{
+    font-size: 12px;
+}
 }
