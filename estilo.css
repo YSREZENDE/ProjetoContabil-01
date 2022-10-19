@@ -202,7 +202,7 @@ box-sizing: border-box;
 footer{
     position: relative;
     bottom: 0%;
-    background: #1f1d76;
+    background: #5d5bc8;
     height: auto;
     width: 100vw;
     font-family: "Georgia";
@@ -222,6 +222,7 @@ footer{
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
+    text-align: center;
 }
 .footer-content p{
     max-width: 500px;
@@ -234,7 +235,7 @@ footer{
 
 
 .footer-bottom{
-    background: #0d0c58;
+    
     width: 90vw;
     padding: 20px 0;
     text-align: center;
@@ -244,6 +245,9 @@ footer{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    text-align: center;
+    opacity: .5;
+    
 }
 .footer-bottom span{
     text-transform: uppercase;
@@ -267,4 +271,5 @@ footer{
 #boxes .box p{
     font-size: 12px;
 }
+
 }
