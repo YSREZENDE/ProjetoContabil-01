@@ -72,17 +72,24 @@ main{
 }
 .text-bx h1{
     font-size: 2rem;
-    padding: 1rem;
     text-transform: uppercase;
-    color: #1f1d76;
-    
+    color:#6463a4 ;
     letter-spacing: .2rem;
 
+}
+.text-bx b{
+    
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #1e1d5e; 
+    letter-spacing: .2rem;
+    
 }
 .text-bx p {
     color: #000000;
     font-weight: 400;
-    margin-top: 20 px;
+    margin-top: 15px;
+  
 }
 
 .text-bx .input-bx{
@@ -113,7 +120,7 @@ display: flex;
     cursor: pointer;
     font-size: 15px;
 }
-.redes-sociais {
+.redes-sociais{
     margin-top: 30px;
 
 }
@@ -128,17 +135,19 @@ display: flex;
     color: white;
     background-color: #1f1d76;
     padding: 7px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 /**deixando a imagem responsiva**/
 .img-bx{
     width: 60%;
 
 }
+
 .img-bx img{
     width: 100%;
 
 } 
+
 @media (max-width:970px){
     nav .menu-icon{
         display: block;
@@ -155,7 +164,7 @@ display: flex;
         flex-direction:column;
         justify-content: center;
         transition: 0.3s ease-in;
-        background-color: rgb(237, 230, 230);
+        background-color: rgb(227, 227, 227);
     }
    nav ul.active{
     transform: translateX(0);
@@ -191,85 +200,4 @@ main{
 .text-bx .input-bx{
     justify-content: center;
 }
-/**footer**/
-
-*{
-    margin: 0%;
-    padding:0%;
-box-sizing: border-box;
-}
-
-footer{
-    position: relative;
-    bottom: 0%;
-    background: #5d5bc8;
-    height: auto;
-    width: 100vw;
-    font-family: "Georgia";
-    padding-top: 40px;
-    color: white;
-}
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-
-}
-.footer-content h3{
-    font-size: 1.4rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-    text-align: center;
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-
-}
-
-
-
-.footer-bottom{
-    
-    width: 90vw;
-    padding: 20px 0;
-    text-align: center;
-    justify-content: center;
-}
-.footer-bottom p {
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-    text-align: center;
-    opacity: .5;
-    
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-}
-#boxes .box{
-    margin-top: 20px;
-
-}
-#boxes .box{
-    float: left;
-    text-align: center;
-    width: 30%;
-    padding: 10px;
-}
-#boxes .box i{
-    width: px;
-
-}
-#boxes .box p{
-    font-size: 12px;
-}
-
 }
